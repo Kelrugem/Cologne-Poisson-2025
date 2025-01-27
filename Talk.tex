@@ -53,30 +53,30 @@ aspectratio=3218,
 %\setcounter{secnumdepth}{5}
 \usepackage[backend=biber, style=numeric]{biblatex}
 \addbibresource{Literatur.bib}
-\newcommand{\footlineextra}[1]{
-    \begin{tikzpicture}[remember picture,overlay]
-        \node[yshift=2ex,anchor=south west] at (current page.south west) {\usebeamerfont{author in head/foot}\hspace{2ex}#1};
-    \end{tikzpicture}
-}
+%\newcommand{\footlineextra}[1]{
+    %\begin{tikzpicture}[remember picture,overlay]
+        %\node[yshift=2ex,anchor=south west] at (current page.south west) {\usebeamerfont{author in head/foot}\hspace{2ex}#1};
+    %\end{tikzpicture}
+%}
 
-\newcommand\insertreferences{}
-\setbeamertemplate{footline}{%
-  \leavevmode%
-  \hbox{%
-  \begin{beamercolorbox}[wd=.09\paperwidth, ht=5ex,dp=1ex,center, sep=1.4ex]{author in head/foot}%
-    \usebeamerfont{author in head/foot}
-		%\vfill
+%\newcommand\insertreferences{}
+%\setbeamertemplate{footline}{%
+  %\leavevmode%
+  %\hbox{%
+  %\begin{beamercolorbox}[wd=.09\paperwidth, ht=5ex,dp=1ex,center, sep=1.4ex]{author in head/foot}%
+    %\usebeamerfont{author in head/foot}
+		%%\vfill
+		%%Sources
+		%%\vfill
 		%Sources
-		%\vfill
-		Sources
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.91\paperwidth,ht=5ex,dp=1ex,center]{title in head/foot}%
-    \usebeamerfont{title in head/foot}
-    \insertreferences
-
-  \end{beamercolorbox}
-}
-}
+  %\end{beamercolorbox}%
+  %\begin{beamercolorbox}[wd=.91\paperwidth,ht=5ex,dp=1ex,center]{title in head/foot}%
+    %\usebeamerfont{title in head/foot}
+    %\insertreferences
+%
+  %\end{beamercolorbox}
+%}
+%}
 
 
 \title{Classification of neighbourhoods of leaves of singular foliations}   
@@ -174,8 +174,9 @@ aspectratio=3218,
 \end{frame} 
 
 
+\section{Singular Foliations}
+
 {
-\setbeamertemplate{footline}{}
 \begin{frame}
 %\frametitle{Table of contents}
 %\tableofcontents
@@ -204,13 +205,11 @@ S.-R.\ F.\ and Camille Laurent-Gengoux, \textit{Classification of neighborhoods 
 %\end{frame}
 }
 
-\section{Singular Foliations}
-
-
 
 \setbeamertemplate{frame footer}{Right diagram made by Mark J.D.\ Hamilton.}
 
 \begin{frame}
+\begin{center}
 \begin{tikzpicture}
 \coordinate (O) at (0,0);
 %\foreach \j in {1,...,3} \draw (O) circle (3.5-\j);
@@ -249,11 +248,11 @@ S.-R.\ F.\ and Camille Laurent-Gengoux, \textit{Classification of neighborhoods 
 \end{scope}
 %\draw[line width=2mm,>={Triangle[length=3mm,width=5mm]},->] (2.6,0) -- (3.8,0);
 \end{tikzpicture}
+\end{center}
 \end{frame}
 
 
 {
-\setbeamertemplate{footline}{}
 \begin{frame}
 \textbf{Singular Foliations:}
 
@@ -270,196 +269,36 @@ S.-R.\ F.\ and Camille Laurent-Gengoux, \textit{Classification of neighborhoods 
 \end{frame}
 }
 
-\subsection{Definition}
-
-\renewcommand\insertreferences{{\tiny  Peter Stefan, Accessible sets, orbits, and foliations with singularities. \textit{Proc.\ London Math.\ Soc.}, 29, 1974.
+\setbeamertemplate{frame footer}{Peter Stefan, Accessible sets, orbits, and foliations with singularities. \textit{Proc.\ London Math.\ Soc.}, 29, 1974.
 \newline
-Héctor J. Sussmann, Orbits of families of vector fields and integrability of distributions. \textit{Trans.\ Amer.\ Math.\ Soc.}, 180, 1973}}
-
-\begin{frame}{First idea}
-\begin{definition}[Partitionifolds]
-Let $M$ be a smooth manifold. A \textbf{partitionifold of $M$} is a partition of immersed connected submanifolds, which we call \emph{leaves}.
-\end{definition}
-
-\begin{remark}
-We will denote a partitionifold by $L_\bullet$, $p \mapsto L_p$, where $L_p$ is the leaf through $p \in M$.
-\end{remark}
-\end{frame}
-
-{
-\setbeamertemplate{footline}
-{
-  \leavevmode%
-  \hbox{%
-  \begin{beamercolorbox}[wd=.09\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
-    \usebeamerfont{author in head/foot}
-		Sources
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.91\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
-    \usebeamerfont{title in head/foot}
-		Graphic by Camille Laurent-Gengoux, Ruben Louis, and Leonid Ryvkin.
-  \end{beamercolorbox}%
-  %\begin{beamercolorbox}[wd=.175\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-    %\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
-    %%\insertframenumber{} 
-		%%/ \inserttotalframenumber\hspace*{2ex} 
-  %\end{beamercolorbox}
-	}%
-  \vskip0pt%
-}
+Héctor J. Sussmann, Orbits of families of vector fields and integrability of distributions. \textit{Trans.\ Amer.\ Math.\ Soc.}, 180, 1973}
 
 \begin{frame}
-\begin{minipage}[]{0.45\textwidth}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=1\textwidth]{magnetique.png}
-	\caption{The magnetic partition}
-	\label{fig:magnetique}
-\end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[]{0.45\textwidth}
-\begin{remark}
-A partitionifold with:
-\begin{itemize}
-	\item All leaves are of the same dimension.
-	\item \textbf{But:} It lacks regularity!
-\end{itemize}
-\end{remark}
-\end{minipage}
-\end{frame}
-
-\begin{frame}
-\begin{minipage}[]{0.45\textwidth}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=1\textwidth]{Lonely Lasagna.png}
-	\caption{Isolated lasagna in a spaghetti dish}
-	\label{fig:LonelyLasagna}
-\end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[]{0.45\textwidth}
-\begin{remark}
-A partitionifold with:
-\begin{itemize}
-	\item Dimension is now different.
-	\item \textbf{But:} Also no regularity!
-\end{itemize}
-\end{remark}
-\pause
-\begin{remark}
-Isolated spaghetti in a lasagna dish: Regularity!
-\end{remark}
-\end{minipage}
-\end{frame}
-}
-
-%\renewcommand\insertreferences{{\tiny  Peter Stefan, Accessible sets, orbits, and foliations with singularities. \textit{Proc.\ London Math.\ Soc.}, 29, 1974.
-%\newline
-%Héctor J. Sussmann, Orbits of families of vector fields and integrability of distributions. \textit{Trans.\ Amer.\ Math.\ Soc.}, 180, 1973}}
-
-\begin{frame}
-\begin{definition}[Smooth partitionifold]
-A smooth partitionifold $L_\bullet$ is smooth, if there is for all $p \in M$ and every vector $u \in \mathrm{T}_p L_p$ a vector field $X$ tangent to $L_\bullet$ with
-\bes
-X_p = u.
-\ees
-\end{definition}
-
-\pause
-
-\begin{remark}
-This definition is okay, but not widely used: It still has a problem...
-\end{remark}
-\end{frame}
-
-{
-\setbeamertemplate{footline}{}
-\begin{frame}
-
-\begin{example}[Vector fields not necessarily finitely generated]
-Consider the following smooth partitionifold:
-\begin{itemize}
-	\item $M = \mathbb{R}$;
-	\item 0-dimensional leaves:
-	\bes
-	\{1\}, \mleft\{\frac{1}{2}\mright\}, \mleft\{\frac{1}{3}\mright\}, \dots, \mleft\{\frac{1}{n}\mright\}, \dots, \{0\};
-	\ees
-	\item 1-dimensional leaves: Remaining open intervals.
-\end{itemize}
-\end{example}
-
-\pause
-
-\begin{remark}
-One has a sort of ``infinitesimal leaf'' next to $\{0\}$. 
-
-Technically: Tangent vectors of $L_\bullet$ are locally not finitely generated around 0.
-\end{remark}
-\end{frame}
-
-\begin{frame}
-Recall:
-
-\begin{theorem}[Frobenius Theorem]
-Every integrable subbundle $E$ of $\mathrm{T} M$ corresponds to a regular foliation in $M$.
-\end{theorem}
-
-\begin{remark}[$\Gamma(E)$ is involutive]
-Integrable:
-\bes
-[X, Y] \in \Gamma(E)
-\ees
-for all $X, Y \in \Gamma(E)$.
-\end{remark}
-\pause
-\begin{remark}
-Alternatively: An involutive submodule of $\mathfrak{X}(M)$, or equivalently of $\mathfrak{X}_c(M)$.
-\end{remark}
-\end{frame}
-}
-
-\begin{frame}
-\begin{definition}[Smooth singular foliation]
-A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold $M$ is a subspace of $\mathfrak{X}_c(M)$ so that
+\begin{definition}[Smooth singular foliation]\vspace{.5pt}
+A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold $M$ is a submodule of $\mathfrak{X}_c(M)$ so that
 \begin{itemize}
 	\item it is \textbf{involutive},
-	\item it is \textbf{stable under $C^\infty(M)$-multiplication},
 	\item it is \textbf{locally finitely generated}.
 \end{itemize}
 \end{definition}
 \end{frame}
 
 \begin{frame}
-\begin{definition}[Smooth singular foliation]
-A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a subspace of $\mathfrak{X}_c(M)$ so that
+\begin{definition}[Smooth singular foliation]\vspace{.5pt}
+A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a submodule of $\mathfrak{X}_c(M)$ so that
 \begin{itemize}
 	\item it is \textbf{involutive}, \textit{i.e.\ $[\mathcal{F}, \mathcal{F}] \subset \mathcal{F}$},
-	\item it is \textbf{stable under $C^\infty(M)$-multiplication},
 	\item it is \textbf{locally finitely generated}.
 \end{itemize}
 \end{definition}
 \end{frame}
 
 \begin{frame}
-\begin{definition}[Smooth singular foliation]
-A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a subspace of $\mathfrak{X}_c(M)$ so that
+\begin{definition}[Smooth singular foliation]\vspace{.5pt}
+A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a submodule of $\mathfrak{X}_c(M)$ so that
 \begin{itemize}
 	\item it is \textbf{involutive}, \textit{i.e.\ $[\mathcal{F}, \mathcal{F}] \subset \mathcal{F}$},
-	\item it is \textbf{stable under $C^\infty(M)$-multiplication}, \textit{i.e.\ $fX \in \mathcal{F}$ for all $f \in C^\infty(M)$ and $X \in \mathcal{F}$},
-	\item it is \textbf{locally finitely generated}.
-\end{itemize}
-\end{definition}
-\end{frame}
-
-\begin{frame}
-\begin{definition}[Smooth singular foliation]
-A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a subspace of $\mathfrak{X}_c(M)$ so that
-\begin{itemize}
-	\item it is \textbf{involutive}, \textit{i.e.\ $[\mathcal{F}, \mathcal{F}] \subset \mathcal{F}$},
-	\item it is \textbf{stable under $C^\infty(M)$-multiplication}, \textit{i.e.\ $fX \in \mathcal{F}$ for all $f \in C^\infty(M)$ and $X \in \mathcal{F}$},
-	\item it is \textbf{locally finitely generated}, \textit{i.e.\ around each $p \in M$ there is an open neighbourhood $U$ and a finite family $\mleft( X^i \mright)_i^{r}$ ($X^i \in \mathcal{F}$) such that for all $X \in \mathcal{F}$ there are $f_i \in C^\infty(M)$ satisfying on $U$}.
+	\item it is \textbf{locally finitely generated}, \textit{i.e.\ around each $p \in M$ there is an open neighbourhood $U$ and a finite family $\mleft( X^i \mright)_i$ ($X^i \in \mathcal{F}$) such that for all $X \in \mathcal{F}$ there are $f_i \in C^\infty(M)$ satisfying on $U$},
 	\bes
 	X = \sum_i f_i X^i.
 	\ees
@@ -467,31 +306,6 @@ A \textbf{smooth singular foliation $\mathcal{F}$} on a smooth manifold is a sub
 \end{definition}
 \end{frame}
 
-\begin{frame}
-\begin{remark}[Leaves]
-We have an induced smooth partitionifold $L_\bullet$,
-\bes
-\mathcal{F} \Rightarrow L_\bullet,
-\ees
-but $\mathcal{F}$ also encodes the information about the generators,
-\bes
-\begin{array}{c@{\ }c@{\ }c}
-\mathcal{F}_1 &&\\
-&\Searrow&\\
-&& L_\bullet \\
-&\Nearrow&\\
-\mathcal{F}_2&&
-\end{array}
-\ees
-\end{remark}
-
-%\begin{figure}[htbp]
-	%\centering
-		%\includegraphics[width=.70\textwidth]{Foliation example.png}
-	%\label{fig:Foliation example}
-%\end{figure}
-
-\end{frame}
 %
 %{
 %\setbeamertemplate{footline}{}
@@ -540,20 +354,9 @@ but $\mathcal{F}$ also encodes the information about the generators,
 %\end{frame}
 %}
 
-\subsection{First steps}
+\section{First step towards a classification}
 
-
-{
-\setbeamertemplate{footline}{}
-\begin{frame}
-\thispagestyle{empty}
-\begin{center}
-\textbf{\Large First step towards classification}
-\end{center}
-\end{frame}
-}
-
-\renewcommand\insertreferences{{\tiny Camille Laurent-Gengoux and Leonid Ryvkin, The holonomy of a singular leaf, \newline \textit{Selecta Mathematica 28}, no.\ 2, 45, 2022.}}
+\setbeamertemplate{frame footer}{Camille Laurent-Gengoux and Leonid Ryvkin, The holonomy of a singular leaf, \textit{Selecta Mathematica 28}, no.\ 2, 45, 2022.}
 
 \begin{frame}
 \begin{figure}[htbp]
@@ -573,7 +376,7 @@ but $\mathcal{F}$ also encodes the information about the generators,
 	\label{fig:FoliationconnectionZwei}
 \end{figure}
 
-\begin{theorem}[$\mathcal{F}$-connections]
+\begin{theorem}[$\mathcal{F}$-connections]\vspace{.5pt}
 There is a connection on the normal bundle of a leaf $L$:
 \begin{itemize}
 	\item Horizontal vector fields are in $\mathcal{F}$.
@@ -585,7 +388,7 @@ There is a connection on the normal bundle of a leaf $L$:
 \end{frame}
 
 {
-\setbeamertemplate{footline}{}
+\setbeamertemplate{frame footer}{}
 \begin{frame}{Example of a transverse foliation $\tau$ in $\mathbb{R}^d$:}
 %\begin{center}
 \begin{minipage}[]{0.45\textwidth}
@@ -600,7 +403,7 @@ There is a connection on the normal bundle of a leaf $L$:
 \end{minipage}
 \hfill
 \begin{minipage}[]{0.45\textwidth}
-\begin{remark}
+\begin{remark}\vspace{3pt}
 \begin{itemize}
 	\item $\mathup{Inner}(\tau_l)$ maps each circle to itself
 	\item $\mathup{Sym}(\tau_l)$ allows to exchange circles
@@ -613,32 +416,16 @@ There is a connection on the normal bundle of a leaf $L$:
 
 
 {
-\setbeamertemplate{footline}
+\setbeamertemplate{frame footer}
 {
-  \leavevmode%
-  \hbox{%
-  \begin{beamercolorbox}[wd=.09\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
-    \usebeamerfont{author in head/foot}
-		Sources
-  \end{beamercolorbox}%
-  \begin{beamercolorbox}[wd=.91\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
-    \usebeamerfont{title in head/foot}
-		Diagram drawn by Camille Laurent-Gengoux.
-  \end{beamercolorbox}%
-  %\begin{beamercolorbox}[wd=.175\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
-    %\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
-    %%\insertframenumber{} 
-		%%/ \inserttotalframenumber\hspace*{2ex} 
-  %\end{beamercolorbox}
-	}%
-  \vskip0pt%
+Diagram drawn by Camille Laurent-Gengoux.
 }
 \begin{frame}
 
 %\begin{minipage}[]{0.45\textwidth}
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=.9\textwidth]{snake.png}
+		\includegraphics[width=.8\textwidth]{snake.png}
 	\label{fig:snake}
 \end{figure}
 %\end{center}
@@ -656,9 +443,9 @@ There is a connection on the normal bundle of a leaf $L$:
 \end{frame}
 }
 
+\setbeamertemplate{frame footer}{}
 
 {
-\setbeamertemplate{footline}{}
 
 \begin{frame}{Other example: Regular foliation}
 \begin{figure}
@@ -706,54 +493,56 @@ $\mathup{Sym}(\tau_l)$: We essentially need the image of a group morphism $\pi_1
 
 \begin{danger}
 But $\mathup{Sym}(\tau_l)$ and $\mathup{Inner}(\tau_l)$ are in general infinite-dimensional, so that we have to deal with infinite-dimensional geometry!
+
+Thus: We assume that $\tau_l$ is a formal singular foliation.
 \end{danger}
 \end{frame}
 
 }
+%
+%\subsection{Formal Foliation}
+%
+%\renewcommand\insertreferences{{\tiny Camille Laurent-Gengoux and Leonid Ryvkin, The neighborhood of a singular leaf, \newline \textit{Journal de l'École polytechnique}, Math. 8 (2021), 1037–1064.}}
+%
+%\begin{frame}
+%\begin{definition}[Formal foliation]
+%$X \in \mathcal{F}$ induces a derivation on $\hat{C} \coloneqq C^\infty(M)/C^\infty_0(M)$, where $C^\infty_0(M)$ is the ideal of functions vanishing with all their derivatives along $L$. The image of $\mathcal{F}$ under this is the \textbf{formal singular foliation}.
+%\end{definition}
+%
+%\begin{remark}
+%$f \in \hat{C}$ a formal power series, w.r.t.\ $(x_1, \dots, x_d)$ as ``normal coordinates'':
+%\bes
+	%f = \sum_{i_1, \dots, i_d \geq 0} f_{i_1, \dots, i_d} x^{i_1}_1 \dots x^{i_d}_d
+%\ees
+%with $f_{i_1, \dots, i_d} \in C^\infty(L)$.
+%\end{remark}
+%
+%
+%\end{frame}
 
-\subsection{Formal Foliation}
-
-\renewcommand\insertreferences{{\tiny Camille Laurent-Gengoux and Leonid Ryvkin, The neighborhood of a singular leaf, \newline \textit{Journal de l'École polytechnique}, Math. 8 (2021), 1037–1064.}}
-
-\begin{frame}
-\begin{definition}[Formal foliation]
-$X \in \mathcal{F}$ induces a derivation on $\hat{C} \coloneqq C^\infty(M)/C^\infty_0(M)$, where $C^\infty_0(M)$ is the ideal of functions vanishing with all their derivatives along $L$. The image of $\mathcal{F}$ under this is the \textbf{formal singular foliation}.
-\end{definition}
-
-\begin{remark}
-$f \in \hat{C}$ a formal power series, w.r.t.\ $(x_1, \dots, x_d)$ as ``normal coordinates'':
-\bes
-	f = \sum_{i_1, \dots, i_d \geq 0} f_{i_1, \dots, i_d} x^{i_1}_1 \dots x^{i_d}_d
-\ees
-with $f_{i_1, \dots, i_d} \in C^\infty(L)$.
-\end{remark}
 
 
-\end{frame}
+%\setbeamertemplate{frame footer}{}
 
-
-{
-\setbeamertemplate{footline}{}
-
-\begin{frame}
-\begin{remark}
-$f \in \hat{C}$ a formal power series, w.r.t.\ $(x_1, \dots, x_d)$ as ``normal coordinates'':
-\bes
-	f = \sum_{i_1, \dots, i_d \geq 0} f_{i_1, \dots, i_d} x^{i_1}_1 \dots x^{i_d}_d
-\ees
-with $f_{i_1, \dots, i_d} \in C^\infty(L)$.
-\end{remark}
-
-\begin{example}[Canonical example of a formal foliation]
-For embedded submanifolds $L$:
-\begin{itemize}[<+->]
-	\item Normal bundle $\mathcal{T}$: $\mathrm{T}M|_L / \mathrm{T}L$.
-	\item Formal vector fields via tubular neighbourhood embedding, a Lie algebra morphism $\mathfrak{X}(M) \to \mathfrak{X}^{\text{formal}}$.
-	\item Formal version of $\mathcal{F}$ via this map.
-	\item In particular: Formal version of $X \in \mathcal{F}$ can be evaluated at $l \in L$, coinciding with $X_l$.
-\end{itemize}
-\end{example}
-\end{frame}
+%\begin{frame}
+%\begin{remark}
+%$f \in \hat{C}$ a formal power series, w.r.t.\ $(x_1, \dots, x_d)$ as ``normal coordinates'':
+%\bes
+	%f = \sum_{i_1, \dots, i_d \geq 0} f_{i_1, \dots, i_d} x^{i_1}_1 \dots x^{i_d}_d
+%\ees
+%with $f_{i_1, \dots, i_d} \in C^\infty(L)$.
+%\end{remark}
+%
+%\begin{example}[Canonical example of a formal foliation]
+%For embedded submanifolds $L$:
+%\begin{itemize}[<+->]
+	%\item Normal bundle $\mathcal{T}$: $\mathrm{T}M|_L / \mathrm{T}L$.
+	%\item Formal vector fields via tubular neighbourhood embedding, a Lie algebra morphism $\mathfrak{X}(M) \to \mathfrak{X}^{\text{formal}}$.
+	%\item Formal version of $\mathcal{F}$ via this map.
+	%\item In particular: Formal version of $X \in \mathcal{F}$ can be evaluated at $l \in L$, coinciding with $X_l$.
+%\end{itemize}
+%\end{example}
+%\end{frame}
 
 \begin{frame}{Our aim}
 \begin{remark}[Our assumptions]
@@ -781,22 +570,14 @@ or also
 \end{itemize}
 \end{remark}
 \end{frame}
-}
+
 
 
 
 \section{Multiplicative Yang-Mills connections}
-\subsection{More on foliation connections}
 
 {
-\setbeamertemplate{footline}{}
 
-\begin{frame}
-\thispagestyle{empty}
-\begin{center}
-\textbf{\Large Multiplicative Yang-Mills connections}
-\end{center}
-\end{frame}
 
 \begin{frame}
 \begin{figure}[htbp]
@@ -965,6 +746,7 @@ We need:
 %\&\&
 %\text{Connection on } \mathup{Sym}(\tau) \arrow{ll} \arrow{ul}
 %\end{tikzcd}
+\begin{center}
 \begin{tikzcd}[ampersand replacement=\&]
 \&\{\text{Connection on } \mathcal{T}\} \arrow{dd} \arrow{dl}\arrow{dr}\&
 \\
@@ -972,6 +754,7 @@ We need:
 \\
 \&\{\text{Connection on } \mathup{Sym}(\tau)\} \arrow{uu} \arrow{ul}\arrow{ur}\&
 \end{tikzcd}
+\end{center}
 \begin{remark}
 Connections 
 \begin{itemize}
@@ -985,7 +768,6 @@ The pair of connections may \textbf{not} be unique for a given $\mathcal{F}$!
 
 \subsection{Lie group bundle actions}
 {
-\setbeamertemplate{footline}{}
 
 \begin{frame}
 \textbf{Curved Yang-Mills gauge theories:}
@@ -1027,7 +809,7 @@ What are Ehresmann connections, preserving $\mathcal{G}$-actions?
 \end{frame}
 }
 
-\renewcommand\insertreferences{{\tiny  K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \newline \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}}
+\setbeamertemplate{frame footer}{K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}
 
 \begin{frame}
 \begin{definition}[LGB actions]
@@ -1075,9 +857,9 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 %\end{definition}
 %\end{frame}
 
-\subsection{Connections as parallel transport}
+\setbeamertemplate{frame footer}{}
+
 {
-\setbeamertemplate{footline}{}
 \begin{frame}{Connection on $\mathcal{T}$: Idea}
 \begin{figure}
 %\caption{Pushforwards via right-multiplication of tangent vectors}  
@@ -1260,7 +1042,7 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 	\end{minipage}\hfill
 	\pause
 	\begin{minipage}[]{0.45\textwidth} 
-	\begin{remark}[Integrated case]
+	\begin{remark}[Integrated case]\vspace{3pt}
 	Parallel transport $\mathup{PT}^{\mathcal{T}}_\gamma$ in $\mathcal{T}$:
 		\bas
 		%\mathrm{D}_p r_g (X)
@@ -1302,7 +1084,7 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 \subsection{General notion of Ehresmann and Yang-Mills connections}
 
 \begin{frame}
-\begin{definition}[Ehresmann/Yang-Mills connection, {[C.\ L.-G., S.-R.\ F.]}]
+\begin{definition}[Ehresmann/Yang-Mills connection, {[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 A surjective submersion $\pi \colon \mathcal{T} \to L$ so that one has a commuting diagram
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
@@ -1331,7 +1113,7 @@ A surjective submersion $\pi \colon \mathcal{T} \to L$ so that one has a commuti
 \end{frame}
 
 \begin{frame}
-\begin{definition}[Multiplicative YM connection, {[S.-R.\ F.]}]
+\begin{definition}[Multiplicative YM connection, {[S.-R.\ F.]}]\vspace{.5pt}
 On $\mathcal{G}$ there is also the notion of \textbf{multiplicative Yang-Mills connections}, that is,
 \bas
 \mathup{PT}_\gamma^{\mathcal{G}}(q \cdot g)
@@ -1390,7 +1172,7 @@ Compare this with the Maurer-Cartan form and its curvature equation!
 %\end{remark}
 %\end{frame}
 
-\renewcommand\insertreferences{{\tiny For the first equation: Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}}
+\setbeamertemplate{frame footer}{For the first equation: Camille Laurent-Gengoux, Mathieu Stiénon, and Ping Xu. Non-abelian differentiable gerbes. \newline \textit{Advances in Mathematics}, 220(5):1357–1427, 2009.}
 
 \begin{frame}
 \begin{remark}
@@ -1407,7 +1189,7 @@ R_{\nabla}
 \eas
 \end{remark}
 \pause
-\begin{example}
+\begin{example}\vspace{.5pt}
 Consider the Atiyah sequence of a principal $G$-bundle $P$: \vspace{-0.25cm}
 \begin{center}
 	\begin{tikzcd}[ampersand replacement=\&]
@@ -1432,23 +1214,15 @@ with splitting $\mathbb{H} \colon \mathrm{T}L \to \mathup{T}P/G$, where $\mathfr
 \end{frame}
 
 
-
+\setbeamertemplate{frame footer}{}
 
 
 \section{Foliations and Yang-Mills connections}
 \subsection{Reconstructing Foliations}
 {
-\setbeamertemplate{footline}{}
 
 \begin{frame}
-\thispagestyle{empty}
-\begin{center}
-\textbf{\Large Going back to foliations}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 Given a multiplicative Yang-Mills connection on $\mathcal{G}$ and a Yang-Mills connection $\mathbb{H}$ on $\mathcal{T}$, then there is a natural foliation on $\mathcal{T}$ generated by 
 \bas
 \mathbb{H}(X) + \overline{\nu},
@@ -1500,7 +1274,7 @@ Fix a point $l \in L$ with transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)
 \end{frame}
 
 \begin{frame}
-\begin{proposition}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{proposition}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 The associated connection on $\mathcal{G}$ is a multiplicative Yang-Mills connection and the one on $\mathcal{T}$ is a corresponding Yang-Mills connection.
 \end{proposition}
 
@@ -1530,7 +1304,7 @@ Thus, we have a singular foliation on $\mathcal{T}$, which, by construction, adm
 
 
 \begin{frame}
-\begin{proposition}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{proposition}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 The reconstructed foliation is independent of the choice of connection on $P$.
 \end{proposition}
 \pause
@@ -1566,7 +1340,7 @@ with $X \in \mathfrak{X}(L)$ and $\nu \in \Gamma(\mathup{Ad}(P))$.
 \subsection{Summary}
 
 \begin{frame}{Main Theorems}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 In the simply connected case, the following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$
@@ -1574,6 +1348,7 @@ In the simply connected case, the following are equivalent:
 \end{itemize}
 \end{theorem}
 
+\begin{center}
 \begin{tikzcd}[ampersand replacement=\&]
 \&\{\text{Connection on } \mathcal{T}\} \arrow{dd} \arrow{dl}\arrow{dr}\&
 \\
@@ -1581,11 +1356,12 @@ In the simply connected case, the following are equivalent:
 \\
 \&\{\text{Connection on } \mathup{Sym}(\tau)\} \arrow{uu} \arrow{ul}\arrow{ur}\&
 \end{tikzcd}
+\end{center}
 
 \end{frame}
 
 \begin{frame}{Main Theorems}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 In the simply connected case, the following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$
@@ -1606,10 +1382,10 @@ Formal setting is here very important! Especially here is where one has to think
 \end{frame}
 }
 
-\renewcommand\insertreferences{{\tiny Corollary by Camille Laurent-Gengoux and Leonid Ryvkin, The neighborhood of a singular leaf, \newline \textit{Journal de l'\'Ecole Polytechnique}, Math.\ 8, 1037 - 1064, 2021.}}
+\setbeamertemplate{frame footer}{Corollary by Camille Laurent-Gengoux and Leonid Ryvkin, The neighborhood of a singular leaf, \textit{Journal de l'\'Ecole Polytechnique}, Math.\ 8, 1037 - 1064, 2021.}
 
 \begin{frame}{Examples}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 In the simply connected case, the following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$
@@ -1617,16 +1393,17 @@ In the simply connected case, the following are equivalent:
 \end{itemize}
 \end{theorem}
 
-\begin{corollary}
+\begin{corollary}\vspace{.5pt}
 L simply connected and $\tau_l$ is made of vector fields vanishing quadratically at 0. Then the unique singular foliation is the trivial one, \textit{i.e.}\ the trivial product of (L, $\mathfrak{X}(L)$) and $\mleft(\mathbb{R}^d, \tau_l \mright)$.
 \end{corollary}
 \end{frame}
 
+\setbeamertemplate{frame footer}{}
+
 {
-\setbeamertemplate{footline}{}
 
 \begin{frame}{Examples}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 In the simply connected case, the following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$
@@ -1634,13 +1411,13 @@ In the simply connected case, the following are equivalent:
 \end{itemize}
 \end{theorem}
 
-\begin{corollary}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{corollary}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 L contractible. Then the unique singular foliation is the trivial one.
 \end{corollary}
 \end{frame}
 
 \begin{frame}{Examples}
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 In the simply connected case, the following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$
@@ -1648,7 +1425,7 @@ In the simply connected case, the following are equivalent:
 \end{itemize}
 \end{theorem}
 
-\begin{corollary}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{corollary}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 L simply connected. Then $\mathcal{F}$ is the trivial foliation if and only if it admits a flat $\mathcal{F}$-connection.
 \end{corollary}
 \end{frame}
@@ -1715,7 +1492,6 @@ $L = \mathbb{S}^2$, $M = \mathrm{T}\mathbb{S}^2$. Let us consider two possible $
 
 
 {
-\setbeamertemplate{footline}{}
 
 \begin{frame}{Total classification}
 
@@ -1732,7 +1508,7 @@ $\mathup{Inner}(\tau_l)$ is a normal subgroup of $\mathup{Sym}(\tau_l)$, thus we
 \end{center}
 \end{remark}
 
-\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]
+\begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
 The following are equivalent:
 \begin{itemize}
 	\item Singular foliations with leaf $L$ and transverse model $\mleft(\mathbb{R}^d, \tau_l\mright)$,

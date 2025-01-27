@@ -1,150 +1,119 @@
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\sectionentry {1}{Singular Foliations}{2}{Singular Foliations}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\beamer@sectionpages {1}{2}}
-\headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\sectionentry {1}{Singular Foliations}{3}{Singular Foliations}{0}}
-\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{0}{3}{5/5}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionpages {3}{5}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{6}{Definition}}
-\headcommand {\slideentry {1}{1}{1}{6/6}{Definition}{0}}
+\headcommand {\slideentry {1}{0}{5}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{1}{2}{7/7}{Definition}{0}}
+\headcommand {\slideentry {1}{0}{6}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{1}{3}{8/9}{Definition}{0}}
-\headcommand {\beamer@framepages {8}{9}}
-\headcommand {\slideentry {1}{1}{4}{10/11}{Definition}{0}}
-\headcommand {\beamer@framepages {10}{11}}
-\headcommand {\slideentry {1}{1}{5}{12/13}{Definition}{0}}
-\headcommand {\beamer@framepages {12}{13}}
-\headcommand {\slideentry {1}{1}{6}{14/15}{Definition}{0}}
-\headcommand {\beamer@framepages {14}{15}}
-\headcommand {\slideentry {1}{1}{7}{16/16}{Definition}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {1}{1}{8}{17/17}{Definition}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {1}{1}{9}{18/18}{Definition}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {1}{1}{10}{19/19}{Definition}{0}}
+\headcommand {\slideentry {1}{0}{7}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@sectionpages {2}{8}}
+\headcommand {\beamer@subsectionpages {2}{8}}
+\headcommand {\sectionentry {2}{First step towards a classification}{9}{First step towards a classification}{0}}
+\headcommand {\slideentry {2}{0}{1}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{0}{2}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {2}{0}{3}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{0}{4}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{0}{5}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{0}{6}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {2}{0}{7}{15/16}{}{0}}
+\headcommand {\beamer@framepages {15}{16}}
+\headcommand {\slideentry {2}{0}{8}{17/18}{}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\beamer@sectionpages {9}{18}}
+\headcommand {\beamer@subsectionpages {9}{18}}
+\headcommand {\sectionentry {3}{Multiplicative Yang-Mills connections}{19}{Multiplicative Yang-Mills connections}{0}}
+\headcommand {\slideentry {3}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {1}{1}{11}{20/20}{Definition}{0}}
+\headcommand {\slideentry {3}{0}{2}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionpages {6}{20}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{21}{First steps}}
-\headcommand {\slideentry {1}{2}{1}{21/21}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{3}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {1}{2}{2}{22/22}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{4}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {1}{2}{3}{23/23}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{5}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {1}{2}{4}{24/24}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{6}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {1}{2}{5}{25/25}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{7}{25/25}{}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {1}{2}{6}{26/26}{First steps}{0}}
+\headcommand {\slideentry {3}{0}{8}{26/26}{}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {1}{2}{7}{27/28}{First steps}{0}}
-\headcommand {\beamer@framepages {27}{28}}
-\headcommand {\beamer@subsectionpages {21}{28}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{29}{Formal Foliation}}
-\headcommand {\slideentry {1}{3}{1}{29/29}{Formal Foliation}{0}}
+\headcommand {\beamer@subsectionpages {19}{26}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{27}{Lie group bundle actions}}
+\headcommand {\slideentry {3}{1}{1}{27/27}{Lie group bundle actions}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {3}{1}{2}{28/28}{Lie group bundle actions}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {3}{1}{3}{29/29}{Lie group bundle actions}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {1}{3}{2}{30/33}{Formal Foliation}{0}}
-\headcommand {\beamer@framepages {30}{33}}
-\headcommand {\slideentry {1}{3}{3}{34/35}{Formal Foliation}{0}}
-\headcommand {\beamer@framepages {34}{35}}
-\headcommand {\beamer@sectionpages {3}{35}}
-\headcommand {\beamer@subsectionpages {29}{35}}
-\headcommand {\sectionentry {2}{Multiplicative Yang-Mills connections}{36}{Multiplicative Yang-Mills connections}{0}}
-\headcommand {\slideentry {2}{0}{1}{36/36}{}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\beamer@subsectionpages {36}{36}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{37}{More on foliation connections}}
-\headcommand {\slideentry {2}{1}{1}{37/37}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {2}{1}{2}{38/38}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {2}{1}{3}{39/39}{More on foliation connections}{0}}
+\headcommand {\slideentry {3}{1}{4}{30/31}{Lie group bundle actions}{0}}
+\headcommand {\beamer@framepages {30}{31}}
+\headcommand {\slideentry {3}{1}{5}{32/33}{Lie group bundle actions}{0}}
+\headcommand {\beamer@framepages {32}{33}}
+\headcommand {\beamer@subsectionpages {27}{33}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{34}{General notion of Ehresmann and Yang-Mills connections}}
+\headcommand {\slideentry {3}{2}{1}{34/34}{General notion of Ehresmann and Yang-Mills connections}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {3}{2}{2}{35/36}{General notion of Ehresmann and Yang-Mills connections}{0}}
+\headcommand {\beamer@framepages {35}{36}}
+\headcommand {\slideentry {3}{2}{3}{37/38}{Lie group bundle actions}{0}}
+\headcommand {\beamer@framepages {37}{38}}
+\headcommand {\beamer@sectionpages {19}{38}}
+\headcommand {\beamer@subsectionpages {27}{38}}
+\headcommand {\sectionentry {4}{Foliations and Yang-Mills connections}{39}{Foliations and Yang-Mills connections}{0}}
+\headcommand {\slideentry {4}{0}{1}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {2}{1}{4}{40/40}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {2}{1}{5}{41/41}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {2}{1}{6}{42/42}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {2}{1}{7}{43/43}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {2}{1}{8}{44/44}{More on foliation connections}{0}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@subsectionpages {37}{44}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{45}{Lie group bundle actions}}
-\headcommand {\slideentry {2}{2}{1}{45/45}{Lie group bundle actions}{0}}
-\headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {2}{2}{2}{46/46}{Lie group bundle actions}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\beamer@subsectionpages {45}{46}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{47}{Connections as parallel transport}}
-\headcommand {\slideentry {2}{3}{1}{47/47}{Connections as parallel transport}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {2}{3}{2}{48/49}{Connections as parallel transport}{0}}
-\headcommand {\beamer@framepages {48}{49}}
-\headcommand {\slideentry {2}{3}{3}{50/51}{Connections as parallel transport}{0}}
-\headcommand {\beamer@framepages {50}{51}}
-\headcommand {\beamer@subsectionpages {47}{51}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{52}{General notion of Ehresmann and Yang-Mills connections}}
-\headcommand {\slideentry {2}{4}{1}{52/52}{General notion of Ehresmann and Yang-Mills connections}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {2}{4}{2}{53/54}{General notion of Ehresmann and Yang-Mills connections}{0}}
-\headcommand {\beamer@framepages {53}{54}}
-\headcommand {\slideentry {2}{4}{3}{55/56}{Connections as parallel transport}{0}}
-\headcommand {\beamer@framepages {55}{56}}
-\headcommand {\beamer@sectionpages {36}{56}}
-\headcommand {\beamer@subsectionpages {47}{56}}
-\headcommand {\sectionentry {3}{Foliations and Yang-Mills connections}{57}{Foliations and Yang-Mills connections}{0}}
-\headcommand {\slideentry {3}{0}{1}{57/57}{}{0}}
+\headcommand {\beamer@subsectionpages {39}{39}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{40}{Reconstructing Foliations}}
+\headcommand {\slideentry {4}{1}{1}{40/41}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {40}{41}}
+\headcommand {\slideentry {4}{1}{2}{42/46}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {42}{46}}
+\headcommand {\slideentry {4}{1}{3}{47/48}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {47}{48}}
+\headcommand {\beamer@subsectionpages {40}{48}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{49}{Independency of choice of connection}}
+\headcommand {\slideentry {4}{2}{1}{49/50}{Independency of choice of connection}{0}}
+\headcommand {\beamer@framepages {49}{50}}
+\headcommand {\beamer@subsectionpages {49}{50}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{51}{Summary}}
+\headcommand {\slideentry {4}{3}{1}{51/51}{Summary}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {4}{3}{2}{52/54}{Summary}{0}}
+\headcommand {\beamer@framepages {52}{54}}
+\headcommand {\slideentry {4}{3}{3}{55/55}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {4}{3}{4}{56/56}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {4}{3}{5}{57/57}{Reconstructing Foliations}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\beamer@subsectionpages {57}{57}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{58}{Reconstructing Foliations}}
-\headcommand {\slideentry {3}{1}{1}{58/58}{Reconstructing Foliations}{0}}
+\headcommand {\slideentry {4}{3}{6}{58/58}{Reconstructing Foliations}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {3}{1}{2}{59/60}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {59}{60}}
-\headcommand {\slideentry {3}{1}{3}{61/65}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {61}{65}}
-\headcommand {\slideentry {3}{1}{4}{66/67}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {66}{67}}
-\headcommand {\beamer@subsectionpages {58}{67}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{68}{Independency of choice of connection}}
-\headcommand {\slideentry {3}{2}{1}{68/69}{Independency of choice of connection}{0}}
-\headcommand {\beamer@framepages {68}{69}}
-\headcommand {\beamer@subsectionpages {68}{69}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{70}{Summary}}
-\headcommand {\slideentry {3}{3}{1}{70/70}{Summary}{0}}
-\headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {3}{3}{2}{71/73}{Summary}{0}}
-\headcommand {\beamer@framepages {71}{73}}
-\headcommand {\slideentry {3}{3}{3}{74/74}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {74}{74}}
-\headcommand {\slideentry {3}{3}{4}{75/75}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {75}{75}}
-\headcommand {\slideentry {3}{3}{5}{76/76}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {3}{3}{6}{77/77}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {77}{77}}
-\headcommand {\slideentry {3}{3}{7}{78/78}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {3}{3}{8}{79/79}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {3}{3}{9}{80/80}{Reconstructing Foliations}{0}}
-\headcommand {\beamer@framepages {80}{80}}
-\headcommand {\beamer@partpages {1}{80}}
-\headcommand {\beamer@subsectionpages {58}{80}}
-\headcommand {\beamer@sectionpages {57}{80}}
-\headcommand {\beamer@documentpages {80}}
-\headcommand {\gdef \inserttotalframenumber {55}}
+\headcommand {\slideentry {4}{3}{7}{59/59}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {4}{3}{8}{60/60}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {4}{3}{9}{61/61}{Reconstructing Foliations}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\beamer@partpages {1}{61}}
+\headcommand {\beamer@subsectionpages {40}{61}}
+\headcommand {\beamer@sectionpages {39}{61}}
+\headcommand {\beamer@documentpages {61}}
+\headcommand {\gdef \inserttotalframenumber {42}}
