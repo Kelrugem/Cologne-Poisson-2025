@@ -2,9 +2,4 @@
 \beamer@sectionintoc {1}{Singular Foliations}{2}{0}{1}
 \beamer@sectionintoc {2}{First step towards a classification}{9}{0}{2}
 \beamer@sectionintoc {3}{Multiplicative Yang-Mills connections}{19}{0}{3}
-\beamer@subsectionintoc {3}{1}{Lie group bundle actions}{27}{0}{3}
-\beamer@subsectionintoc {3}{2}{General notion of Ehresmann and Yang-Mills connections}{34}{0}{3}
-\beamer@sectionintoc {4}{Foliations and Yang-Mills connections}{39}{0}{4}
-\beamer@subsectionintoc {4}{1}{Reconstructing Foliations}{40}{0}{4}
-\beamer@subsectionintoc {4}{2}{Independency of choice of connection}{49}{0}{4}
-\beamer@subsectionintoc {4}{3}{Summary}{51}{0}{4}
+\beamer@sectionintoc {4}{Foliations and Yang-Mills connections}{32}{0}{4}

@@ -766,181 +766,103 @@ The pair of connections may \textbf{not} be unique for a given $\mathcal{F}$!
 \end{frame}
 }
 
-\subsection{Lie group bundle actions}
-{
-
-\begin{frame}
-\textbf{Curved Yang-Mills gauge theories:}
-\begin{table}[h!]
-	\centering
-		\begin{tabular}{c c} 
-			%\rowcolor{gray}
-			Classical & Curved \\
-			%Infinitesimal & Lie algebra $\mathfrak{g}$ & LAB\footnote{LAB = Lie algebra bundle} $\mathcal{g}$ \\
-			%\rowcolor{Gray}
-			Lie group $G$ & \textcolor[rgb]{1,0.41,0.13}{Lie group bundle
-			%\footnote{LGB = Lie group bundle} 
-			$\mathcal{G}$}
-		\end{tabular}
-\end{table}
-
-\begin{center}
-	\begin{tikzcd}[ampersand replacement=\&]
-	G \arrow{r} \& \mathcal{G} \arrow{d} \\
-	\& L
-	\end{tikzcd}
-\end{center}
-
-\begin{motivation}
-What are Ehresmann connections, preserving $\mathcal{G}$-actions?
-\end{motivation}
-%\pause
-%\begin{remark}[Why a "curved theory"?]
-%Usually, the field strength $F$ is given by (abelian, for simplicity)
-%\bas
-%F
-%&\coloneqq
-%\mathrm{d}A
-%=
-%\mathrm{d}^{\nabla^0}A.
-%\eas
-%$\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^0$, and $\nabla$ may not be flat.
-%\end{remark}
-\end{frame}
-}
-
-\setbeamertemplate{frame footer}{K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}
-
-\begin{frame}
-\begin{definition}[LGB actions]
-\begin{center}
-	\begin{tikzcd}[ampersand replacement=\&, column sep = small, row sep = small]
-	 \mathcal{G} \arrow[bend left]{dr} \arrow{d}{\pi_{\mathcal{G}}} \& \\
-	L \& \mathcal{T} \arrow{l}{\pi}
-	\end{tikzcd}
-\end{center}
-A \textbf{left-action of $\mathcal{G}$ on $\mathcal{T}$} is a smooth map 
-%\bas
-$\mathcal{G} * \mathcal{T} \coloneqq \mathcal{G} \leftindex^{}_{\pi_{\mathcal{G}}}\times_{\pi} \mathcal{T} \to \mathcal{T}$,
-$(g, p) \mapsto g \cdot p$,
-%\eas
-satisfying the following properties:
-\bas
-\pi(g \cdot p) &= \pi(p),\\
-h \cdot (g \cdot p) &= (hg) \cdot p,\\
-e_{\pi(p)} \cdot p &= p
-\eas
-for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p)}$ is the neutral element of $\mathcal{G}_{\pi(p)}$.
-\end{definition}
-\end{frame}
-
-%\renewcommand\insertreferences{{\tiny Ieke Moerdijk, Janez Mrcun. Introduction to Foliations and Lie Groupoids. \newline \textit{Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge}, 2003}}
+%{
 %
 %\begin{frame}
-%\begin{definition}[Principal bundle]
+%\textbf{Curved Yang-Mills gauge theories:}
+%\begin{table}[h!]
+	%\centering
+		%\begin{tabular}{c c} 
+			%%\rowcolor{gray}
+			%Classical & Curved \\
+			%%Infinitesimal & Lie algebra $\mathfrak{g}$ & LAB\footnote{LAB = Lie algebra bundle} $\mathcal{g}$ \\
+			%%\rowcolor{Gray}
+			%Lie group $G$ & \textcolor[rgb]{1,0.41,0.13}{Lie group bundle
+			%%\footnote{LGB = Lie group bundle} 
+			%$\mathcal{G}$}
+		%\end{tabular}
+%\end{table}
+%
 %\begin{center}
 	%\begin{tikzcd}[ampersand replacement=\&]
-	%\mathcal{P} \arrow{d}{\pi_{\mathcal{P}}} \arrow{dr}{\phi} \& \arrow[bend right]{l} \mathcal{G} \arrow{d}{\pi_{\mathcal{G}}}
-    %%\arrow{l} G 
-    %\\
-	%L' \arrow{r}{\Psi} \& L
+	%G \arrow{r} \& \mathcal{G} \arrow{d} \\
+	%\& L
 	%\end{tikzcd}
 %\end{center}
-%A surjective submersion $\pi_{\mathcal{P}}\colon \mathcal{P} \to L'$, with $\mathcal{G}$-action
+%
+%\begin{motivation}
+%What are Ehresmann connections, preserving $\mathcal{G}$-actions?
+%\end{motivation}
+%%\pause
+%%\begin{remark}[Why a "curved theory"?]
+%%Usually, the field strength $F$ is given by (abelian, for simplicity)
+%%\bas
+%%F
+%%&\coloneqq
+%%\mathrm{d}A
+%%=
+%%\mathrm{d}^{\nabla^0}A.
+%%\eas
+%%$\rightsquigarrow$ We will use a general connection $\nabla$ instead of $\nabla^0$, and $\nabla$ may not be flat.
+%%\end{remark}
+%\end{frame}
+%}
+%
+%\setbeamertemplate{frame footer}{K. Mackenzie. General Theory of Lie Groupoids and Algebroids. \textit{London Mathematical Society Lecture Note Series}, 213, 2005.}
+%
+%\begin{frame}
+%\begin{definition}[LGB actions]
+%\begin{center}
+	%\begin{tikzcd}[ampersand replacement=\&, column sep = small, row sep = small]
+	 %\mathcal{G} \arrow[bend left]{dr} \arrow{d}{\pi_{\mathcal{G}}} \& \\
+	%L \& \mathcal{T} \arrow{l}{\pi}
+	%\end{tikzcd}
+%\end{center}
+%A \textbf{left-action of $\mathcal{G}$ on $\mathcal{T}$} is a smooth map 
+%%\bas
+%$\mathcal{G} * \mathcal{T} \coloneqq \mathcal{G} \leftindex^{}_{\pi_{\mathcal{G}}}\times_{\pi} \mathcal{T} \to \mathcal{T}$,
+%$(g, p) \mapsto g \cdot p$,
+%%\eas
+%satisfying the following properties:
 %\bas
-%\begin{matrix}
-	%\textcolor[rgb]{1,0,0}{\xcancel{\mathcal{P} \times G}} &\to \mathcal{P} \\
-	%\mathcal{P} * \mathcal{G} &
-%\end{matrix}
+%\pi(g \cdot p) &= \pi(p),\\
+%h \cdot (g \cdot p) &= (hg) \cdot p,\\
+%e_{\pi(p)} \cdot p &= p
 %\eas
-%simply transitive on $\pi_{\mathcal{P}}$-fibres of $\mathcal{P}$, and "suitable" atlas.
+%for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p)}$ is the neutral element of $\mathcal{G}_{\pi(p)}$.
 %\end{definition}
 %\end{frame}
-
-\setbeamertemplate{frame footer}{}
-
-{
-\begin{frame}{Connection on $\mathcal{T}$: Idea}
-\begin{figure}
-%\caption{Pushforwards via right-multiplication of tangent vectors}  
-%\label{figure:fibre bundle}
-\centering
-\begin{tikzpicture}[scale=0.55]
-\draw (0,-3.5) to[out=10,in=170] (4.25,-3.5) to[out=350,in=190] (8.5,-3.5);
-%\draw [->, draw=orange] (8.7,-3.5) -- (10.3,-3.5);
-%\draw (9.5,-4) node {\textcolor[rgb]{1,0.647,0}{$\Psi \colon L' \to L$}};
-\draw (1.25,2.5) to[out=280,in=90](1.5,0) to[out=270,in=80] (1.25,-2.5);
-\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=90](3.75,0) to[out=270,in=80] (3.5,-2.5) -- (5,-2.5)  to[out=80,in=270](5.25,0) to[out=90,in=280] (5,2.5) -- cycle;
-\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5); %draw with middle section for precise point placement
-
-
-
-
-
-\draw (5.75,2.5) to[out=280,in=90](6,0) to[out=270,in=80] (5.75,-2.5);
-\draw (7.25,2.5) to[out=280,in=90](7.5,0) to[out=270,in=80] (7.25,-2.5);
-\draw (2.75,2.475) to[out=280,in=90](3,0) to[out=270,in=80] (2.75,-2.475);
-
-%\draw (4.75,2) node {$\mathcal{T}_x$};
-%\draw (4.95,1.5) node {$\cong G$};
-%\draw (9.5,-3.5) node {$M$};
-\draw (5,2) node {$\mathcal{G}_U$};
-\draw (3.5,-3.4) node {$($};
-\filldraw [fill=red, draw=red] (4.25,-3.5) circle (1pt);
-\draw (4.25,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
-\draw (5,-3.6) node {$)$};
-\draw (4.25, -3) node {$U$};
-\draw (0,0) node {$\mathcal{G}$};
-\draw [->] (0,-0.4) -- (0,-3.1);
-\draw (0.6,-1.75) node {$\pi_{\mathcal{G}}$};
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\draw (10.5,-3.5) to[out=10,in=170] (14.75,-3.5) to[out=350,in=190] (19,-3.5); %hori M
-\filldraw [fill=gray!20!white, draw=white] (14,2.5) to[out=280,in=90](14.25,0) to[out=270,in=80] (14,-2.5) -- (15.5,-2.5)  to[out=80,in=270](15.75,0) to[out=90,in=280] (15.5,2.5) -- cycle; %gray area
-\draw (11.75,2.5) to[out=280,in=90](12,0) to[out=270,in=80] (11.75,-2.5); %vert line 1
-\draw (14.75,2.5) to[out=280,in=90](15,0) to[out=270,in=80] (14.75,-2.5); %3
-\draw (16.25,2.5) to[out=280,in=90](16.5,0) to[out=270,in=80] (16.25,-2.5); %4
-\draw (17.75,2.5) to[out=280,in=90](18,0) to[out=270,in=80] (17.75,-2.5); %5
-
-\draw (13.25,2.475) to[out=280,in=90](13.5,0) to[out=270,in=80] (13.25,-2.475); %2
-
-
-
-\draw (19,0) node {$\mathcal{T}$}; %These three lines are for LGB projection
-\draw [->] (19,-0.4) -- (19,-3.1);
-\draw (18.5,-1.75) node {$\pi$};
-
-\draw (15.5,2) node {$\mathcal{T}_U$};
-\draw (14,-3.4) node {$($};
-\filldraw [fill=red, draw=red] (14.75,-3.5) circle (1pt);
-\draw (14.75,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
-\draw (15.5,-3.6) node {$)$};
-\draw (14.75, -2.9) node {$U$};
-
-\path[->] (8.5,0) edge [bend left] (11,0);
-
-\filldraw [fill=red, draw=red] (14.96,1) circle (1pt);
-\filldraw [fill=red, draw=red] (14.96,-1) circle (1pt);
-\draw (14.05,1) node {\textcolor[rgb]{1,0,0}{$g \cdot p$}};
-\draw (14.55,-1) node {\textcolor[rgb]{1,0,0}{$p$}};
-\draw [<-, draw=blue] (15.55,1) to[out=275,in=85] (15.55,-1);
-\filldraw [fill=blue, draw=blue] (4.46,0) circle (1pt);
-\draw (16.05,0) node {\textcolor[rgb]{0,0,1}{$g \cdot$}};
-\draw (4.95,0) node {\textcolor[rgb]{0,0,1}{$g$}};
-\end{tikzpicture}
-\end{figure}
-%\pause
-%But:
-%\bas
-%&&&r_g \colon \mathcal{T}_l \to \mathcal{T}_l\\
-%&\Rightarrow&&\mathrm{D}_pr_g \text{ only defined on vertical structure}
-%\eas
-\end{frame}
 %
+%%\renewcommand\insertreferences{{\tiny Ieke Moerdijk, Janez Mrcun. Introduction to Foliations and Lie Groupoids. \newline \textit{Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge}, 2003}}
+%%
+%%\begin{frame}
+%%\begin{definition}[Principal bundle]
+%%\begin{center}
+	%%\begin{tikzcd}[ampersand replacement=\&]
+	%%\mathcal{P} \arrow{d}{\pi_{\mathcal{P}}} \arrow{dr}{\phi} \& \arrow[bend right]{l} \mathcal{G} \arrow{d}{\pi_{\mathcal{G}}}
+    %%%\arrow{l} G 
+    %%\\
+	%%L' \arrow{r}{\Psi} \& L
+	%%\end{tikzcd}
+%%\end{center}
+%%A surjective submersion $\pi_{\mathcal{P}}\colon \mathcal{P} \to L'$, with $\mathcal{G}$-action
+%%\bas
+%%\begin{matrix}
+	%%\textcolor[rgb]{1,0,0}{\xcancel{\mathcal{P} \times G}} &\to \mathcal{P} \\
+	%%\mathcal{P} * \mathcal{G} &
+%%\end{matrix}
+%%\eas
+%%simply transitive on $\pi_{\mathcal{P}}$-fibres of $\mathcal{P}$, and "suitable" atlas.
+%%\end{definition}
+%%\end{frame}
+%
+%\setbeamertemplate{frame footer}{}
+%
+%{
 %\begin{frame}{Connection on $\mathcal{T}$: Idea}
 %\begin{figure}
 %%\caption{Pushforwards via right-multiplication of tangent vectors}  
-%%\label{figure:fibre bundle part two}
+%%\label{figure:fibre bundle}
 %\centering
 %\begin{tikzpicture}[scale=0.55]
 %\draw (0,-3.5) to[out=10,in=170] (4.25,-3.5) to[out=350,in=190] (8.5,-3.5);
@@ -950,13 +872,10 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 %\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=90](3.75,0) to[out=270,in=80] (3.5,-2.5) -- (5,-2.5)  to[out=80,in=270](5.25,0) to[out=90,in=280] (5,2.5) -- cycle;
 %\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5); %draw with middle section for precise point placement
 %
-%\draw (4,-1) node {\textcolor[rgb]{1,0,0}{$p$}};
-%\draw [<-, draw=blue] (5,1) to[out=275,in=85] (5,-1);
-%\draw [<-, draw=blue] (4.8,1) to[out=275,in=85] (4.8,-1);
-%\draw [<-, draw=blue] (4.6,1) to[out=275,in=85] (4.6,-1);
-%\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$\cdot \sigma$}};
-%\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
-%\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
+%
+%
+%
+%
 %\draw (5.75,2.5) to[out=280,in=90](6,0) to[out=270,in=80] (5.75,-2.5);
 %\draw (7.25,2.5) to[out=280,in=90](7.5,0) to[out=270,in=80] (7.25,-2.5);
 %\draw (2.75,2.475) to[out=280,in=90](3,0) to[out=270,in=80] (2.75,-2.475);
@@ -964,17 +883,17 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 %%\draw (4.75,2) node {$\mathcal{T}_x$};
 %%\draw (4.95,1.5) node {$\cong G$};
 %%\draw (9.5,-3.5) node {$M$};
-%\draw (5,2) node {$\mathcal{T}_U$};
+%\draw (5,2) node {$\mathcal{G}_U$};
 %\draw (3.5,-3.4) node {$($};
 %\filldraw [fill=red, draw=red] (4.25,-3.5) circle (1pt);
 %\draw (4.25,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
 %\draw (5,-3.6) node {$)$};
 %\draw (4.25, -3) node {$U$};
-%\draw (0,0) node {$\mathcal{T}$};
+%\draw (0,0) node {$\mathcal{G}$};
 %\draw [->] (0,-0.4) -- (0,-3.1);
-%\draw (0.6,-1.75) node {$\pi$};
-%\draw (3.5,1) node {\textcolor[rgb]{1,0,0}{$r_\sigma(p)$}};
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\draw (0.6,-1.75) node {$\pi_{\mathcal{G}}$};
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\draw (10.5,-3.5) to[out=10,in=170] (14.75,-3.5) to[out=350,in=190] (19,-3.5); %hori M
 %\filldraw [fill=gray!20!white, draw=white] (14,2.5) to[out=280,in=90](14.25,0) to[out=270,in=80] (14,-2.5) -- (15.5,-2.5)  to[out=80,in=270](15.75,0) to[out=90,in=280] (15.5,2.5) -- cycle; %gray area
 %\draw (11.75,2.5) to[out=280,in=90](12,0) to[out=270,in=80] (11.75,-2.5); %vert line 1
@@ -983,105 +902,184 @@ for all $p \in \mathcal{T}$ and $g, h \in \mathcal{G}_{\pi(p)}$, where $e_{\pi(p
 %\draw (17.75,2.5) to[out=280,in=90](18,0) to[out=270,in=80] (17.75,-2.5); %5
 %
 %\draw (13.25,2.475) to[out=280,in=90](13.5,0) to[out=270,in=80] (13.25,-2.475); %2
-%\draw [draw=blue] (14.25,0) to[out=10,in=170] (15,0) to[out=350,in=190] (15.75,0);
-%%\filldraw [fill=blue, draw=blue] (15,0) circle (1pt);
-%\draw (13.9,0) node {\textcolor[rgb]{0,0,1}{$\sigma$}};
 %
-%\draw (19,0) node {$\mathcal{G}$}; %These three lines are for LGB projection
+%
+%
+%\draw (19,0) node {$\mathcal{T}$}; %These three lines are for LGB projection
 %\draw [->] (19,-0.4) -- (19,-3.1);
-%\draw (18.5,-1.75) node {$\pi_{\mathcal{G}}$};
+%\draw (18.5,-1.75) node {$\pi$};
 %
-%\draw (15.5,2) node {$\mathcal{G}_U$};
+%\draw (15.5,2) node {$\mathcal{T}_U$};
 %\draw (14,-3.4) node {$($};
 %\filldraw [fill=red, draw=red] (14.75,-3.5) circle (1pt);
 %\draw (14.75,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
 %\draw (15.5,-3.6) node {$)$};
 %\draw (14.75, -2.9) node {$U$};
 %
-%\path[<-] (8.5,0) edge [bend left] (11,0);
+%\path[->] (8.5,0) edge [bend left] (11,0);
+%
+%\filldraw [fill=red, draw=red] (14.96,1) circle (1pt);
+%\filldraw [fill=red, draw=red] (14.96,-1) circle (1pt);
+%\draw (14.05,1) node {\textcolor[rgb]{1,0,0}{$g \cdot p$}};
+%\draw (14.55,-1) node {\textcolor[rgb]{1,0,0}{$p$}};
+%\draw [<-, draw=blue] (15.55,1) to[out=275,in=85] (15.55,-1);
+%\filldraw [fill=blue, draw=blue] (4.46,0) circle (1pt);
+%\draw (16.05,0) node {\textcolor[rgb]{0,0,1}{$g \cdot$}};
+%\draw (4.95,0) node {\textcolor[rgb]{0,0,1}{$g$}};
 %\end{tikzpicture}
 %\end{figure}
+%%\pause
+%%But:
+%%\bas
+%%&&&r_g \colon \mathcal{T}_l \to \mathcal{T}_l\\
+%%&\Rightarrow&&\mathrm{D}_pr_g \text{ only defined on vertical structure}
+%%\eas
+%\end{frame}
+%%
+%%\begin{frame}{Connection on $\mathcal{T}$: Idea}
+%%\begin{figure}
+%%%\caption{Pushforwards via right-multiplication of tangent vectors}  
+%%%\label{figure:fibre bundle part two}
+%%\centering
+%%\begin{tikzpicture}[scale=0.55]
+%%\draw (0,-3.5) to[out=10,in=170] (4.25,-3.5) to[out=350,in=190] (8.5,-3.5);
+%%%\draw [->, draw=orange] (8.7,-3.5) -- (10.3,-3.5);
+%%%\draw (9.5,-4) node {\textcolor[rgb]{1,0.647,0}{$\Psi \colon L' \to L$}};
+%%\draw (1.25,2.5) to[out=280,in=90](1.5,0) to[out=270,in=80] (1.25,-2.5);
+%%\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=90](3.75,0) to[out=270,in=80] (3.5,-2.5) -- (5,-2.5)  to[out=80,in=270](5.25,0) to[out=90,in=280] (5,2.5) -- cycle;
+%%\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5); %draw with middle section for precise point placement
+%%
+%%\draw (4,-1) node {\textcolor[rgb]{1,0,0}{$p$}};
+%%\draw [<-, draw=blue] (5,1) to[out=275,in=85] (5,-1);
+%%\draw [<-, draw=blue] (4.8,1) to[out=275,in=85] (4.8,-1);
+%%\draw [<-, draw=blue] (4.6,1) to[out=275,in=85] (4.6,-1);
+%%\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$\cdot \sigma$}};
+%%\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
+%%\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
+%%\draw (5.75,2.5) to[out=280,in=90](6,0) to[out=270,in=80] (5.75,-2.5);
+%%\draw (7.25,2.5) to[out=280,in=90](7.5,0) to[out=270,in=80] (7.25,-2.5);
+%%\draw (2.75,2.475) to[out=280,in=90](3,0) to[out=270,in=80] (2.75,-2.475);
+%%
+%%%\draw (4.75,2) node {$\mathcal{T}_x$};
+%%%\draw (4.95,1.5) node {$\cong G$};
+%%%\draw (9.5,-3.5) node {$M$};
+%%\draw (5,2) node {$\mathcal{T}_U$};
+%%\draw (3.5,-3.4) node {$($};
+%%\filldraw [fill=red, draw=red] (4.25,-3.5) circle (1pt);
+%%\draw (4.25,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
+%%\draw (5,-3.6) node {$)$};
+%%\draw (4.25, -3) node {$U$};
+%%\draw (0,0) node {$\mathcal{T}$};
+%%\draw [->] (0,-0.4) -- (0,-3.1);
+%%\draw (0.6,-1.75) node {$\pi$};
+%%\draw (3.5,1) node {\textcolor[rgb]{1,0,0}{$r_\sigma(p)$}};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\draw (10.5,-3.5) to[out=10,in=170] (14.75,-3.5) to[out=350,in=190] (19,-3.5); %hori M
+%%\filldraw [fill=gray!20!white, draw=white] (14,2.5) to[out=280,in=90](14.25,0) to[out=270,in=80] (14,-2.5) -- (15.5,-2.5)  to[out=80,in=270](15.75,0) to[out=90,in=280] (15.5,2.5) -- cycle; %gray area
+%%\draw (11.75,2.5) to[out=280,in=90](12,0) to[out=270,in=80] (11.75,-2.5); %vert line 1
+%%\draw (14.75,2.5) to[out=280,in=90](15,0) to[out=270,in=80] (14.75,-2.5); %3
+%%\draw (16.25,2.5) to[out=280,in=90](16.5,0) to[out=270,in=80] (16.25,-2.5); %4
+%%\draw (17.75,2.5) to[out=280,in=90](18,0) to[out=270,in=80] (17.75,-2.5); %5
+%%
+%%\draw (13.25,2.475) to[out=280,in=90](13.5,0) to[out=270,in=80] (13.25,-2.475); %2
+%%\draw [draw=blue] (14.25,0) to[out=10,in=170] (15,0) to[out=350,in=190] (15.75,0);
+%%%\filldraw [fill=blue, draw=blue] (15,0) circle (1pt);
+%%\draw (13.9,0) node {\textcolor[rgb]{0,0,1}{$\sigma$}};
+%%
+%%\draw (19,0) node {$\mathcal{G}$}; %These three lines are for LGB projection
+%%\draw [->] (19,-0.4) -- (19,-3.1);
+%%\draw (18.5,-1.75) node {$\pi_{\mathcal{G}}$};
+%%
+%%\draw (15.5,2) node {$\mathcal{G}_U$};
+%%\draw (14,-3.4) node {$($};
+%%\filldraw [fill=red, draw=red] (14.75,-3.5) circle (1pt);
+%%\draw (14.75,-4.2) node {\textcolor[rgb]{1,0,0}{$l$}};
+%%\draw (15.5,-3.6) node {$)$};
+%%\draw (14.75, -2.9) node {$U$};
+%%
+%%\path[<-] (8.5,0) edge [bend left] (11,0);
+%%\end{tikzpicture}
+%%\end{figure}
+%%
+%%\bas
+%%\text{Use } \sigma \in \Gamma(\mathcal{G})\colon r_\sigma(p) \coloneqq p \cdot \sigma_{l}
+%%\eas
+%%\end{frame}
 %
-%\bas
-%\text{Use } \sigma \in \Gamma(\mathcal{G})\colon r_\sigma(p) \coloneqq p \cdot \sigma_{l}
-%\eas
+%\begin{frame}{Connection on $\mathcal{T}$: Revisiting the classical setup}
+%\setbeamercovered{invisible}
+	%\begin{minipage}[]{0.45\textwidth} 
+	%If $\mathcal{G}$ is trivial, and \textcolor[rgb]{0,0.58,0}{$H$} a connection:
+	%\begin{figure}
+	%\begin{tikzpicture}[scale=1.2]
+		%%Gray area
+		%\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=95](3.66,1) to[out=275,in=85] (3.66,-1) to[out=265,in=80] (3.5,-2.5) -- (5,-2.5) to[out=80, in=265] (5.16, -1) to[out=85, in=275] (5.16, 1) to[out=95,in=280] (5,2.5) -- cycle;
+		%%lines
+		%\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5);
+		%\definecolor{darkgreen}{rgb}{0,0.58,0}
+		%\draw [draw=darkgreen] (3.66,-1) to[out=280,in=200] (4.41,-1) to[out=20,in=100] (5.16, -1);
+		%\draw [draw=darkgreen] (3.66,1) to[out=280,in=200] (4.41,1) to[out=20,in=100] (5.16,1);
+		%%Auxiliary stuff like arrows and dots
+		%\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
+		%\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
+		%\draw [<-, draw=blue] (5.16,1) to[out=275,in=85] (5.16,-1);
+		%\draw [->, thick] (4.41,-1) -- (4.71,-0.88);
+		%%\draw [->] (4.41,1) -- (4.63,2);
+		%\draw [->, thick] (4.41,1) -- (4.71,1.12);
+		%%\draw [<-,dotted,thick] (4.63,2) -- (4.71,1.12);
+		%%Labels
+		%\draw (3.2,1) node {\textcolor[rgb]{0,0.58,0}{$H_{g \cdot p}$}};
+		%\draw (3.2,-1) node {\textcolor[rgb]{0,0.58,0}{$H_p$}};
+		%\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$g \cdot$}};
+		%\draw (3,2.2) node {$\mathcal{T}_U$};
+		%\draw (4.71,-0.6) node {$X$};
+		%\draw (5,1.4) node {$\mathrm{D}_pl_g(X)$};
+		%%\draw (5.5,1.56) node {$\thicksim \mathrm{D}_x\sigma(X)$};
+		%%Text
+	%\end{tikzpicture}
+	%\end{figure}
+	%\end{minipage}\hfill
+	%\pause
+	%\begin{minipage}[]{0.45\textwidth} 
+	%\begin{remark}[Integrated case]\vspace{3pt}
+	%Parallel transport $\mathup{PT}^{\mathcal{T}}_\gamma$ in $\mathcal{T}$:
+		%\bas
+		%%\mathrm{D}_p r_g (X)
+		%%&=
+		%%\mleft.\frac{\mathrm{d}}{\mathrm{d}t}\mright|_{t=0}\mleft( \alpha \cdot g \mright),
+		%\mathup{PT}^{\mathcal{T}}_\gamma(g \cdot p)
+		%&=
+		%g \cdot \mathup{PT}^{\mathcal{T}}_\gamma(p),
+		%%\\
+		%%&=
+		%%\mathup{PT}^{\mathcal{T}}_\alpha(p) \cdot \mathup{PT}^{\mathcal{G}}_\alpha (g)
+		%\eas
+		%where $\gamma:I \to L$ is a base path 
+	%\end{remark}
+	%\end{minipage}
+%\end{frame}
+%%
+%%{
+%%\setbeamertemplate{footline}{}
+%
+%\begin{frame}{Connection on $\mathcal{T}$: General case}
+	%\begin{remark}[Integrated case]
+	%Ansatz: Introduce connection on $\mathcal{G}$,
+		%\bas
+		%\mathup{PT}^{\mathcal{T}}_\gamma(g \cdot p)
+		%&=
+		%\mathup{PT}^{\mathcal{G}}_{\gamma} (g) \cdot \mathup{PT}^{\mathcal{T}}_\gamma(p).
+		%\eas
+	%\end{remark}
+	%\pause
+%\begin{BackToTheRoots}
+%\begin{enumerate}
+	%\item $\mathcal{G} \cong L \times G$
+	%\item Equip $\mathcal{G}$ with canonical flat connection
+%\end{enumerate}
+%\end{BackToTheRoots}
 %\end{frame}
 
-\begin{frame}{Connection on $\mathcal{T}$: Revisiting the classical setup}
-\setbeamercovered{invisible}
-	\begin{minipage}[]{0.45\textwidth} 
-	If $\mathcal{G}$ is trivial, and \textcolor[rgb]{0,0.58,0}{$H$} a connection:
-	\begin{figure}
-	\begin{tikzpicture}[scale=1.2]
-		%Gray area
-		\filldraw [fill=gray!20!white, draw=white] (3.5,2.5) to[out=280,in=95](3.66,1) to[out=275,in=85] (3.66,-1) to[out=265,in=80] (3.5,-2.5) -- (5,-2.5) to[out=80, in=265] (5.16, -1) to[out=85, in=275] (5.16, 1) to[out=95,in=280] (5,2.5) -- cycle;
-		%lines
-		\draw (4.25,2.5) to[out=280,in=95](4.41,1) to[out=275,in=85] (4.41,-1) to[out=265,in=80] (4.25,-2.5);
-		\definecolor{darkgreen}{rgb}{0,0.58,0}
-		\draw [draw=darkgreen] (3.66,-1) to[out=280,in=200] (4.41,-1) to[out=20,in=100] (5.16, -1);
-		\draw [draw=darkgreen] (3.66,1) to[out=280,in=200] (4.41,1) to[out=20,in=100] (5.16,1);
-		%Auxiliary stuff like arrows and dots
-		\filldraw [fill=red, draw=red] (4.41,1) circle (1pt);
-		\filldraw [fill=red, draw=red] (4.41,-1) circle (1pt);
-		\draw [<-, draw=blue] (5.16,1) to[out=275,in=85] (5.16,-1);
-		\draw [->, thick] (4.41,-1) -- (4.71,-0.88);
-		%\draw [->] (4.41,1) -- (4.63,2);
-		\draw [->, thick] (4.41,1) -- (4.71,1.12);
-		%\draw [<-,dotted,thick] (4.63,2) -- (4.71,1.12);
-		%Labels
-		\draw (3.2,1) node {\textcolor[rgb]{0,0.58,0}{$H_{g \cdot p}$}};
-		\draw (3.2,-1) node {\textcolor[rgb]{0,0.58,0}{$H_p$}};
-		\draw (5.5,0) node {\textcolor[rgb]{0,0,1}{$g \cdot$}};
-		\draw (3,2.2) node {$\mathcal{T}_U$};
-		\draw (4.71,-0.6) node {$X$};
-		\draw (5,1.4) node {$\mathrm{D}_pl_g(X)$};
-		%\draw (5.5,1.56) node {$\thicksim \mathrm{D}_x\sigma(X)$};
-		%Text
-	\end{tikzpicture}
-	\end{figure}
-	\end{minipage}\hfill
-	\pause
-	\begin{minipage}[]{0.45\textwidth} 
-	\begin{remark}[Integrated case]\vspace{3pt}
-	Parallel transport $\mathup{PT}^{\mathcal{T}}_\gamma$ in $\mathcal{T}$:
-		\bas
-		%\mathrm{D}_p r_g (X)
-		%&=
-		%\mleft.\frac{\mathrm{d}}{\mathrm{d}t}\mright|_{t=0}\mleft( \alpha \cdot g \mright),
-		\mathup{PT}^{\mathcal{T}}_\gamma(g \cdot p)
-		&=
-		g \cdot \mathup{PT}^{\mathcal{T}}_\gamma(p),
-		%\\
-		%&=
-		%\mathup{PT}^{\mathcal{T}}_\alpha(p) \cdot \mathup{PT}^{\mathcal{G}}_\alpha (g)
-		\eas
-		where $\gamma:I \to L$ is a base path 
-	\end{remark}
-	\end{minipage}
-\end{frame}
-%
-%{
-%\setbeamertemplate{footline}{}
-
-\begin{frame}{Connection on $\mathcal{T}$: General case}
-	\begin{remark}[Integrated case]
-	Ansatz: Introduce connection on $\mathcal{G}$,
-		\bas
-		\mathup{PT}^{\mathcal{T}}_\gamma(g \cdot p)
-		&=
-		\mathup{PT}^{\mathcal{G}}_{\gamma} (g) \cdot \mathup{PT}^{\mathcal{T}}_\gamma(p).
-		\eas
-	\end{remark}
-	\pause
-\begin{BackToTheRoots}
-\begin{enumerate}
-	\item $\mathcal{G} \cong L \times G$
-	\item Equip $\mathcal{G}$ with canonical flat connection
-\end{enumerate}
-\end{BackToTheRoots}
-\end{frame}
-
-\subsection{General notion of Ehresmann and Yang-Mills connections}
 
 \begin{frame}
 \begin{definition}[Ehresmann/Yang-Mills connection, {[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
@@ -1131,23 +1129,8 @@ g_{\gamma_0} \cdot q \cdot g_{\gamma_0}^{-1}
 \begin{remark}
 Compare this with the Maurer-Cartan form and its curvature equation!
 \end{remark}
-
-%\pause
-%
-%\begin{definition}[Principal bundle connection, {[S.-R.\ F.]}]
-%\begin{itemize}
-	%\item On $\mathcal{G}$: Multiplicative Yang-Mills connection
-	%\item On $\mathcal{P}$: Ehresmann connection
-%\end{itemize}
-%\end{definition}
-%
-%\pause
-%
-%\begin{remark}[{[S.-R.\ F.]}]
-%This gives rise to a generalised gauge theory by contracting the involved curvatures.
-%\end{remark}
 \end{frame}
-}
+
 %
 %\subsection{Connection and curvature}
 %
@@ -1218,7 +1201,6 @@ with splitting $\mathbb{H} \colon \mathrm{T}L \to \mathup{T}P/G$, where $\mathfr
 
 
 \section{Foliations and Yang-Mills connections}
-\subsection{Reconstructing Foliations}
 {
 
 \begin{frame}
@@ -1300,8 +1282,6 @@ Thus, we have a singular foliation on $\mathcal{T}$, which, by construction, adm
 \end{remark}
 \end{frame}
 
-\subsection{Independency of choice of connection}
-
 
 \begin{frame}
 \begin{proposition}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
@@ -1337,7 +1317,6 @@ with $X \in \mathfrak{X}(L)$ and $\nu \in \Gamma(\mathup{Ad}(P))$.
 %\end{center}
 \end{frame}
 
-\subsection{Summary}
 
 \begin{frame}{Main Theorems}
 \begin{theorem}[{[C.\ L.-G., S.-R.\ F.]}]\vspace{.5pt}
